@@ -63,7 +63,7 @@ def test_word_length(list_of_words, expected):
                                                 "w": 1}),
                             ([], {})
                         ])
-def test_word_start_with(list_of_words, expected):
+def test_words_start_with(list_of_words, expected):
     recreate_msg = helpers.gen_recreate_msg(MODULE, "word_start_with", [], *(list_of_words,))
 
     try:
