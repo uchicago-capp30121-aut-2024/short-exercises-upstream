@@ -54,13 +54,13 @@ def index_of(lst):
     return None
 
 
-def min_depth_leaf(tree):
+def min_depth_leaf(t):
     """
     Computes the minimum depth of a leaf in the tree (length of shortest
     path from the root to a leaf).
 
     Input:
-        tree: a Tree instance.
+        t: a Tree instance.
     
     Returns: (integer) the minimum depth of of a leaf in the tree.
     """
